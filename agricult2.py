@@ -13,7 +13,7 @@ from sklearn.preprocessing import LabelEncoder
 
 app = Flask(__name__)
 
-df = pd.read_csv('D:\MEENA\Sem 2 - Crop Recommendation\Agriculture crop recommendation\Crop_recommendation - Crop_recommendation.csv')
+df = pd.read_csv('Crop_recommendation.csv')
 current_dir = os.getcwd()
 
 # Load the trained model
